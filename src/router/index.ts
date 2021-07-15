@@ -8,7 +8,13 @@ const routes: Array<RouteConfig> = [
     path: '/',
     name: 'Home',
     component: () => import(/* webpackChunkName: "home" */ '../views/Home.vue')
+  },
+  {
+    path: '/add',
+    name: 'Create new task',
+    component: () => import(/* webpackChunkName: "newtask" */ '../views/NewTask.vue')
   }
+
 ]
 
 const router = new VueRouter({

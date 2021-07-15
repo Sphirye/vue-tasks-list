@@ -8,15 +8,19 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator"
-import NavigationDrawerComponent from "@/components/NavigationDrawerComponent.vue"
+import { Component, Vue, Watch } from "vue-property-decorator"
 import AppBarComponent from "@/components/AppBarComponent.vue"
+import TaskService from "@/services/TaskService"
+
 
 @Component({
-  components: { NavigationDrawerComponent, AppBarComponent }
+  components: { AppBarComponent }
 })
 
 export default class App extends Vue {
+  created() {
+    TaskService.setTaskStorage()
+  }
 }
 
 </script>

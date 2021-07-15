@@ -1,44 +1,65 @@
 [
-    {
-        "title": "Run 35 minutes",
-        "time": { "hour": "07", "minute": "00", "meridiem": "am"},
-        "date": { "day": "12", "month": "2", "year": "2021" },
-        "type": "personal",
-        "id": 1
-    },
-    { 
-       "title": "Shower",
-       "time": { "hour": "07", "minute": "40", "meridiem": "am" },
+   {
+      "title": "Run 35 minutes",
+      "time": { "hour": "07", "minute": "00", "meridiem": "am"},
+      "date": { "day": "15", "month": "7", "year": "2021" },
+      "collection": "personal",
+      "id": 1
+   },
+   {
+      "title": "Run 35 minutes",
+      "time": { "hour": "07", "minute": "00", "meridiem": "am"},
+      "date": { "day": "15", "month": "7", "year": "2021" },
+      "collection": "work",
+      "id": 1
+   },
+   {
+      "title": "Run 35 minutes",
+      "time": { "hour": "07", "minute": "00", "meridiem": "am"},
+      "date": { "day": "15", "month": "7", "year": "2021" },
+      "collection": "school",
+      "id": 1
+   },
+   {
+       "title": "Run 35 minutes",
+       "time": { "hour": "07", "minute": "00", "meridiem": "am"},
        "date": { "day": "12", "month": "2", "year": "2021" },
-       "type": "personal",
-       "id": 2
-    },
-    { 
-       "title": "Breakfast",
-       "time": { "hour": "08", "minute": "00", "meridiem": "am" },
+       "collection": "personal",
+       "id": 1
+   },
+   { 
+      "title": "Shower",
+      "time": { "hour": "07", "minute": "40", "meridiem": "am" },
+      "date": { "day": "12", "month": "2", "year": "2021" },
+      "collection": "personal",
+      "id": 2
+   },
+   { 
+      "title": "Breakfast",
+      "time": { "hour": "08", "minute": "00", "meridiem": "am" },
+      "date": { "day": "12", "month": "2", "year": "2021" },
+      "collection": "school",
+      "id": 3
+   },
+   { 
+      "title": "Read book Don't Make Me Think 15 minutes",
+      "time": { "hour": "08", "minute": "30", "meridiem": "am" },
+      "date": { "day": "12", "month": "2", "year": "2021" },
+      "collection": "school",
+      "id": 4
+   },
+   { 
+      "title": "Make homework - Algebra Excercises",
+      "time": { "hour": "08", "minute": "45", "meridiem": "am" },
+      "date": { "day": "12", "month": "2", "year": "2021" },
+      "collection": "school",
+      "id": 5
+   },
+   { 
+       "title": "Design My Task List Prototipe in CSS",
+       "time": { "hour": "09", "minute": "00", "meridiem": "am" },
        "date": { "day": "12", "month": "2", "year": "2021" },
-       "type": "school",
-       "id": 3
-    },
-    { 
-       "title": "Read book Don't Make Me Think 15 minutes",
-       "time": { "hour": "08", "minute": "30", "meridiem": "am" },
-       "date": { "day": "12", "month": "2", "year": "2021" },
-       "type": "school",
-       "id": 4
-    },
-    { 
-       "title": "Make homework - Algebra Excercises",
-       "time": { "hour": "08", "minute": "45", "meridiem": "am" },
-       "date": { "day": "12", "month": "2", "year": "2021" },
-       "type": "school",
-       "id": 5
-    },
-    { 
-        "title": "Design My Task List Prototipe in CSS",
-        "time": { "hour": "09", "minute": "00", "meridiem": "am" },
-        "date": { "day": "12", "month": "2", "year": "2021" },
-        "type": "work",
-        "id": 6
-    }
+       "collection": "work",
+       "id": 6
+   }
 ]

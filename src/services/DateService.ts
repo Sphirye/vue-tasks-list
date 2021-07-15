@@ -25,4 +25,15 @@ export default class RiffService {
         const [year, month, day] = date.split('-')
         return { "day": parseInt(day), "month": parseInt(month), "year": parseInt(year) }
     }
+
+    static convertTimeToTobject(time: string) {
+        const [hour, minute] = time.split(':')
+        let convertedHour = parseInt(hour)
+        let meridiem = "am"
+        if (convertedHour > 12) {
+            convertedHour = convertedHour - 12 
+            meridiem = "pm"
+        }
+        return { "hour": convertedHour, "minute": minute, "meridiem": meridiem }
+    }
 }

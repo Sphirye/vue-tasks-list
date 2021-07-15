@@ -1,5 +1,5 @@
 <template>
-    <v-card rounded="xl" class="lol">
+    <v-card rounded="xl">
         <v-card-title class="py-0 mx-2">
             
             <v-icon @click="select()" color="grey darken-4"> {{ selected ? "fas" : "far"}} fa-circle</v-icon>
@@ -15,7 +15,7 @@
 
             <v-spacer/>
 
-            <v-icon color="grey darken-4">{{getIconByType(task.type)}}</v-icon>
+            <v-icon color="grey darken-4">{{getIconByCollection(task.collection)}}</v-icon>
 
         </v-card-title>
     </v-card>
@@ -36,8 +36,8 @@ export default class TaskComponent extends Vue {
         this.selected = !this.selected
     }
 
-    getIconByType(type: string) {
-        switch (type) {
+    getIconByCollection(collection: string) {
+        switch (collection) {
             case ("personal"): return "far fa-user"
             case ("school"): return "fas fa-book"
             case ("work"): return "fas fa-medkit" //No tengo idea de cual es el icono al que hacía referencia el ejemplo para Work.
