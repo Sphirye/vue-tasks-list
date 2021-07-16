@@ -1,7 +1,7 @@
 <template>
   <v-container class="mb-12">
     <v-row align="center" justify="center">
-      <v-col cols="6">
+      <v-col cols="10" sm="8" md="6">
 
         <span class="font-weight-black text-h4">New Task</span>
 
